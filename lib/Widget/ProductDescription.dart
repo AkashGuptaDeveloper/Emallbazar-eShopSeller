@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-//import 'package:html_editor_enhanced/html_editor.dart';
+import 'package:html_editor_enhanced/html_editor.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:sellermultivendor/Helper/Color.dart';
 import 'package:sellermultivendor/Widget/validation.dart';
@@ -23,7 +23,7 @@ class ProductDescription extends StatefulWidget {
 class _ProductDescriptionState extends State<ProductDescription> {
   String result = '';
   bool isLoading = true;
-  //final HtmlEditorController controller = HtmlEditorController();
+  final HtmlEditorController controller = HtmlEditorController();
 
   @override
   void initState() {
@@ -66,11 +66,11 @@ class _ProductDescriptionState extends State<ProductDescription> {
 
   @override
   Widget build(BuildContext context) {
-    //controller.setText(widget.description!);
+    controller.setText(widget.description!);
     return GestureDetector(
       onTap: () {
         if (!kIsWeb) {
-         // controller.clearFocus(); // for close keybord
+          controller.clearFocus(); // for close keybord
         }
       },
       child: Scaffold(
@@ -120,7 +120,7 @@ class _ProductDescriptionState extends State<ProductDescription> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                   /* HtmlEditor(
+                    HtmlEditor(
                       controller: controller,
                       htmlEditorOptions: HtmlEditorOptions(
                         autoAdjustHeight: true,
@@ -181,7 +181,7 @@ class _ProductDescriptionState extends State<ProductDescription> {
                           return NavigationActionPolicy.ALLOW;
                         },
                       ),
-                    ),*/
+                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
@@ -193,7 +193,7 @@ class _ProductDescriptionState extends State<ProductDescription> {
                               style: TextButton.styleFrom(
                                   backgroundColor: Colors.blueGrey),
                               onPressed: () {
-                                //controller.clear();
+                                controller.clear();
                               },
                               child: Text(
                                 getTranslated(context, "Clear")!,
