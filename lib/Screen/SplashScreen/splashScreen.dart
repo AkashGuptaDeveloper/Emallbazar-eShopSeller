@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:sellermultivendor/Helper/Color.dart';
 import 'package:sellermultivendor/Model/appSettingsModel.dart';
 import 'package:sellermultivendor/Repository/appSettingsRepository.dart';
 import 'package:sellermultivendor/Repository/getSettingRepositry.dart';

@@ -41,8 +41,8 @@ class ApiBaseHelper {
 
   Future<dynamic> postAPICall(Uri url, Map parameter) async {
     var responseJson;
-    print("parameter : $parameter");
-    print("url : $url");
+    //print("parameter : $parameter");
+    //print("url : $url");
     try {
       final response = await post(
         url,
