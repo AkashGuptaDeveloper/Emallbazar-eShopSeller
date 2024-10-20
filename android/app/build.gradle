@@ -35,18 +35,18 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 33
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_19
-        targetCompatibility JavaVersion.VERSION_19
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     lintOptions {
         disable 'InvalidPackage'
         checkReleaseBuilds false //<- add this line
     }
     kotlinOptions {
-        jvmTarget = '19'
+        jvmTarget = "11"
     }
 
     sourceSets {
@@ -57,7 +57,7 @@ android {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "wrteam.seller.multivendor"
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
 
