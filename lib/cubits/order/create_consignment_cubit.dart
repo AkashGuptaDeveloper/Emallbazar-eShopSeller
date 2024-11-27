@@ -39,11 +39,10 @@ class CreateConsignmentCubit extends Cubit<CreateConsignmentState> {
   }) async {
     try {
       emit(CreateConsignmentInProgress());
-      OrderModel orderModel =
-          await _consignmentRepository.createConsignment(
-              orderId: orderId,
-              consignmentTitle: consignmentTitle,
-              orderItemIds: orderItemIds);
+      OrderModel orderModel = await _consignmentRepository.createConsignment(
+          orderId: orderId,
+          consignmentTitle: consignmentTitle,
+          orderItemIds: orderItemIds);
       emit(CreateConsignmentSuccess(
           orderItemItd: orderItemIds,
           orderId: orderId,

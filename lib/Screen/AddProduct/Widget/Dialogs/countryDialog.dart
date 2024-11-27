@@ -71,8 +71,8 @@ countryDialog(
                           ),
                           onChanged: (value) {
                             addProvider!.isLoadingMoreCity = true;
-                          setStater;
-                          updateCity();
+                            setStater;
+                            updateCity();
                           },
                         ),
                       ),

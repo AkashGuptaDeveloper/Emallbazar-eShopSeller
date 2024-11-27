@@ -66,7 +66,6 @@ class _HomeState extends State<Home>
       GlobalKey<ScaffoldMessengerState>();
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
-
   @override
   bool get wantKeepAlive => true;
 

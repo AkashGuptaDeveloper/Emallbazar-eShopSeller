@@ -40,7 +40,7 @@ class ProfileProvider extends ChangeNotifier {
       storelogo,
       authSign;
 
-  var selectedImageFromGellery, selectedAuthSign , selectstorelogo;
+  var selectedImageFromGellery, selectedAuthSign, selectstorelogo;
   bool isLoading = true;
 
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
@@ -60,7 +60,7 @@ class ProfileProvider extends ChangeNotifier {
   GlobalKey<FormState> taxnameKey = GlobalKey<FormState>();
   GlobalKey<FormState> taxnumberKey = GlobalKey<FormState>();
   GlobalKey<FormState> pannumberKey = GlobalKey<FormState>();
-    GlobalKey<FormState> passKey = GlobalKey<FormState>();
+  GlobalKey<FormState> passKey = GlobalKey<FormState>();
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController? nameC,
       emailC,

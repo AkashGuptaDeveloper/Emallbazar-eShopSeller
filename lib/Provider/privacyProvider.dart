@@ -28,7 +28,6 @@ class SystemProvider extends ChangeNotifier {
     try {
       changeStatus(SystemProviderPolicyStatus.inProgress);
 
-
       var result =
           await SystemRepository.fetchSystemPolicies(policyType: policyType);
       policy = result['policy'][policyType][0].toString();

@@ -48,7 +48,6 @@ LineChartData monthData(HomeProvider val) {
           reservedSize: 40,
           showTitles: true,
           getTitlesWidget: (value, child) {
-
             return Text(
               value.toInt().toString(),
               style: const TextStyle(

@@ -69,4 +69,3 @@ class TaxesModel {
   @override
   int get hashCode => id.hashCode;
 }
-

@@ -3,13 +3,11 @@ import '../Widget/api.dart';
 
 class ProfileRepository {
   // for add faqs.
-  static Future<Map<String, dynamic>> getSallerDetail(
-    {
+  static Future<Map<String, dynamic>> getSallerDetail({
     var parameter,
-  }
-  ) async {
+  }) async {
     try {
-     var taxDetail =
+      var taxDetail =
           await ApiBaseHelper().postAPICall(getSellerDetailsApi, parameter);
 
       return taxDetail;
@@ -18,13 +16,11 @@ class ProfileRepository {
     }
   }
 
-   static Future<Map<String, dynamic>> updateUser(
-    {
+  static Future<Map<String, dynamic>> updateUser({
     var parameter,
-  }
-  ) async {
+  }) async {
     try {
-     var taxDetail =
+      var taxDetail =
           await ApiBaseHelper().postAPICall(updateUserApi, parameter);
 
       return taxDetail;

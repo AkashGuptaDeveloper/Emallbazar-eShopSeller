@@ -22,7 +22,7 @@ class HomeRepository {
     try {
       var policy =
           await ApiBaseHelper().postAPICall(getStatisticsApi, parameter);
-       return policy;
+      return policy;
     } on Exception {
       throw ApiException('Something went wrong');
     }

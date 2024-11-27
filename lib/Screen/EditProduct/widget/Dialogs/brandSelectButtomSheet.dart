@@ -56,7 +56,7 @@ brandSelectButtomSheet(
                     )
                   : (editProvider!.brandList.isNotEmpty)
                       ? Flexible(
-                        child: SingleChildScrollView(
+                          child: SingleChildScrollView(
                             controller: editProvider!.brandScrollController,
                             child: Stack(
                               children: [
@@ -83,7 +83,7 @@ brandSelectButtomSheet(
                               ],
                             ),
                           ),
-                      )
+                        )
                       : Padding(
                           padding: const EdgeInsets.symmetric(vertical: 20.0),
                           child: DesignConfiguration.getNoItem(context),

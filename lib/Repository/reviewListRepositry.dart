@@ -3,13 +3,11 @@ import '../Widget/api.dart';
 
 class ReviewListRepository {
   // for add faqs.
-  static Future<Map<String, dynamic>> getReviewList(
-    {
+  static Future<Map<String, dynamic>> getReviewList({
     var parameter,
-  }
-  ) async {
+  }) async {
     try {
-     var taxDetail =
+      var taxDetail =
           await ApiBaseHelper().postAPICall(getProductRatingApi, parameter);
 
       return taxDetail;

@@ -2,11 +2,9 @@ import '../Helper/ApiBaseHelper.dart';
 import '../Widget/api.dart';
 
 class AttributeRepository {
-
-  static Future<Map<String, dynamic>> setAttributeset(
-  ) async {
+  static Future<Map<String, dynamic>> setAttributeset() async {
     try {
-   var parameter = {};
+      var parameter = {};
       var data =
           await ApiBaseHelper().postAPICall(getAttributeSetApi, parameter);
 
@@ -15,12 +13,11 @@ class AttributeRepository {
       throw ApiException('Something went wrong');
     }
   }
-   static Future<Map<String, dynamic>> attributeset(
-  ) async {
+
+  static Future<Map<String, dynamic>> attributeset() async {
     try {
-   var parameter = {};
-      var data =
-          await ApiBaseHelper().postAPICall(getAttributesApi, parameter);
+      var parameter = {};
+      var data = await ApiBaseHelper().postAPICall(getAttributesApi, parameter);
 
       return data;
     } on Exception {
@@ -28,10 +25,9 @@ class AttributeRepository {
     }
   }
 
-   static Future<Map<String, dynamic>> attributeValue(
-  ) async {
+  static Future<Map<String, dynamic>> attributeValue() async {
     try {
-   var parameter = {};
+      var parameter = {};
       var data =
           await ApiBaseHelper().postAPICall(getAttributrValuesApi, parameter);
 

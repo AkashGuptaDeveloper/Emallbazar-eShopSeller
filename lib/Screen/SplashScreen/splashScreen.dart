@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Container(
                       padding: const EdgeInsetsDirectional.symmetric(
                           vertical: 20, horizontal: 10),
-                      child:  Image.asset(
+                      child: Image.asset(
                         width: 200,
                         height: 200,
                         fit: BoxFit.fill,

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 extension CustomContext on BuildContext {
   double get screenWidth => MediaQuery.of(this).size.width;
   double get screenHeight => MediaQuery.of(this).size.height;
@@ -14,6 +12,7 @@ extension CustomContext on BuildContext {
   ///So in theme.dart file i have created Font class which will give limited numbers of getters
   Font get font => Theme.of(this).textTheme.font;
 }
+
 // 10pt: Smaller
 // 12pt: Small
 // 16pt: Large
@@ -22,6 +21,7 @@ extension CustomContext on BuildContext {
 extension TextThemeForFont on TextTheme {
   Font get font => Font();
 }
+
 class Font {
   ///10
   double get smaller => 10;

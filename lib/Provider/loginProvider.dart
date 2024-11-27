@@ -23,7 +23,7 @@ class LoginProvider extends ChangeNotifier {
       Mobile: mobile,
       Password: password,
     };
-    
+
     ApiBaseHelper().postAPICall(getUserLoginApi, data).then(
       (getdata) async {
         bool error = getdata["error"];

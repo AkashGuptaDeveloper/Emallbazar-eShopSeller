@@ -81,7 +81,7 @@ class ConsignmentRepository {
   Future<String> fetchConsignmentInvoice(String consignmentID) async {
     var response = await apiBaseHelper.postAPICall(
         fetchConsignmentInvoiceApi, {'consignment_id': consignmentID});
- 
+
     return response;
   }
 }

@@ -345,7 +345,7 @@ getCategorys(int index, BuildContext context, Function setState) {
                                           child: ListView.builder(
                                             shrinkWrap: true,
                                             padding: const EdgeInsetsDirectional
-                                                    .only(
+                                                .only(
                                                 bottom: 5, start: 10, end: 10),
                                             physics:
                                                 const NeverScrollableScrollPhysics(),
@@ -447,7 +447,7 @@ getCategorys(int index, BuildContext context, Function setState) {
                                                             shrinkWrap: true,
                                                             padding:
                                                                 const EdgeInsetsDirectional
-                                                                        .only(
+                                                                    .only(
                                                                     bottom: 5,
                                                                     start: 10,
                                                                     end: 10),

@@ -6,8 +6,7 @@ class AppConstants {
   static const String iosPackage = 'eshop.seller.multivendor';
   static const String title = 'Emallbazar Seller';
   //please add your panel's API base URL here (you can find from settings->client APIs)
-  static const String baseUrl =
-      'https://emallbazar.com/seller/app/v1/api/';
+  static const String baseUrl = 'https://emallbazar.com/seller/app/v1/api/';
   static const String chatBaseUrl =
       'https://emallbazar.com/seller/app/v1/Chat_Api/';
   static const String defaultLanguage = 'en';

@@ -1673,5 +1673,4 @@ class _SellerRegisterState extends State<SellerRegister>
       },
     );
   }
-
 }

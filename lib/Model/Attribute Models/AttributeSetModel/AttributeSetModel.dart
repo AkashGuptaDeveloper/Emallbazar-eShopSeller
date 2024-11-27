@@ -10,7 +10,7 @@ class AttributeSetModel {
   });
 
   factory AttributeSetModel.fromJson(Map<String, dynamic> json) {
-    return  AttributeSetModel(
+    return AttributeSetModel(
       id: json[Id],
       name: json[Name],
       status: json[STATUS],

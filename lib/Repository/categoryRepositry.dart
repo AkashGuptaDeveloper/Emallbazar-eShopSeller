@@ -6,7 +6,6 @@ class CategoryRepository {
     required Map<dynamic, dynamic> parameter,
   }) async {
     try {
-     
       var taxDetail =
           await ApiBaseHelper().postAPICall(getCategoriesApi, parameter);
 

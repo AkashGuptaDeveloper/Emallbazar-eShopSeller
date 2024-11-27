@@ -12,7 +12,7 @@ class Attribute {
   });
 
   factory Attribute.fromJson(Map<String, dynamic> json) {
-    return  Attribute(
+    return Attribute(
       id: json[IDS],
       value: json[VALUE],
       name: json[AttrName],

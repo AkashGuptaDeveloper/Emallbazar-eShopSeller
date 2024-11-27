@@ -17,9 +17,9 @@ class VariantProductWeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-   padding: const EdgeInsets.symmetric(vertical: 8),
+      padding: const EdgeInsets.symmetric(vertical: 8),
       child: Column(
-       crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           getPrimaryCommanText(getTranslated(context, "Weight (kg)")!, true),
           Container(

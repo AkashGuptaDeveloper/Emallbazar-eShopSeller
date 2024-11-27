@@ -52,11 +52,11 @@ getAppBarForMedia(
                 if (from == "other") {
                   if (type == "add") {
                     for (var element in mediaProvider!.mediaList) {
-                        if (element.isSelected) {
-                          add.addProvider!.otherPhotos.add(element.path!);
-                          add.addProvider!.otherImageUrl.add(element.image!);
-                        }
+                      if (element.isSelected) {
+                        add.addProvider!.otherPhotos.add(element.path!);
+                        add.addProvider!.otherImageUrl.add(element.image!);
                       }
+                    }
                   }
                   if (type == "edit") {
                     edit.editProvider!.otherPhotos

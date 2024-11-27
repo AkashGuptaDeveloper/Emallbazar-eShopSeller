@@ -11,7 +11,7 @@ class Filter {
     this.swatcheValue,
   });
   factory Filter.fromJson(Map<String, dynamic> json) {
-    return  Filter(
+    return Filter(
         attributeValues: json[AttributeValues],
         attributeValuesId: json[AttributeValuesId],
         name: json[Name],

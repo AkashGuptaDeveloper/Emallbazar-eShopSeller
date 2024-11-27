@@ -19,7 +19,7 @@ class ZipCodeModel {
   });
 
   factory ZipCodeModel.fromJson(Map<String, dynamic> json) {
-    return  ZipCodeModel(
+    return ZipCodeModel(
       id: json[Id],
       zipcode: json[Zipcode],
       dateCreated: json[DateCreated],

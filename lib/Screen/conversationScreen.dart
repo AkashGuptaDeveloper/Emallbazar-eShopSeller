@@ -118,8 +118,7 @@ class ConversationScreenState extends State<ConversationScreen>
         ChatRepository.readMessages(
             isGroup: widget.isGroup,
             fromId: widget.personalChatHistory?.getOtherUserId() ?? "",
-            userId: context.read<SettingProvider>().CUR_USERID ?? '0'
-            );
+            userId: context.read<SettingProvider>().CUR_USERID ?? '0');
         context.read<PersonalConverstationsCubit>().updatePersonalChatHistory(
             personalChatHistory:
                 widget.personalChatHistory!.copyWith(unreadMsg: '0'));

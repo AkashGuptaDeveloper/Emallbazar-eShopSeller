@@ -30,10 +30,10 @@ class PersonalConverstationsCubit extends Cubit<PersonalConverstationsState> {
   void fetchConversations({required String currentUserId}) async {
     emit(PersonalConverstationsFetchInProgress());
     try {
-      final personalConversations = await _chatRepository
-          .getConversationList(parameter: {
-            // 'user_id': currentUserId
-            });
+      final personalConversations =
+          await _chatRepository.getConversationList(parameter: {
+        // 'user_id': currentUserId
+      });
 
       emit(PersonalConverstationsFetchSuccess(
           personalConversations: personalConversations));

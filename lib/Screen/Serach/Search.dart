@@ -287,10 +287,12 @@ class _StateSearch extends State<Search> with TickerProviderStateMixin {
                         children: <Widget>[
                           Text(
                             model.name!,
-                            style:
-                                Theme.of(context).textTheme.titleSmall!.copyWith(
-                                      color: lightBlack,
-                                    ),
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall!
+                                .copyWith(
+                                  color: lightBlack,
+                                ),
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -400,11 +402,13 @@ class _StateSearch extends State<Search> with TickerProviderStateMixin {
                                   ),
                                   Text(
                                     " ${searchProvider!.productList[index].rating!}",
-                                    style: Theme.of(context).textTheme.labelSmall,
+                                    style:
+                                        Theme.of(context).textTheme.labelSmall,
                                   ),
                                   Text(
                                     " (${searchProvider!.productList[index].noOfRating!})",
-                                    style: Theme.of(context).textTheme.labelSmall,
+                                    style:
+                                        Theme.of(context).textTheme.labelSmall,
                                   )
                                 ],
                               ),
@@ -514,8 +518,11 @@ class _StateSearch extends State<Search> with TickerProviderStateMixin {
                 TextButton(
                   child: Text(
                     getTranslated(context, "LOGOUTYES")!,
-                    style: Theme.of(this.context).textTheme.titleSmall!.copyWith(
-                        color: fontColor, fontWeight: FontWeight.bold),
+                    style: Theme.of(this.context)
+                        .textTheme
+                        .titleSmall!
+                        .copyWith(
+                            color: fontColor, fontWeight: FontWeight.bold),
                   ),
                   onPressed: () {
                     Routes.pop(context);

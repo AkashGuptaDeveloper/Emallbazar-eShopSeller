@@ -29,7 +29,7 @@ Future<Locale> setLocale(String languageCode) async {
 Future<Locale> getLocale() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   String languageCode = prefs.getString(LAGUAGE_CODE) ?? defaultLanguage;
-;
+  ;
   languageFlag = languageCode;
   return _locale(languageCode);
 }

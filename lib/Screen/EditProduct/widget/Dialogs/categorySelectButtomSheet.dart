@@ -346,7 +346,7 @@ getCategorys(
                                           child: ListView.builder(
                                             shrinkWrap: true,
                                             padding: const EdgeInsetsDirectional
-                                                    .only(
+                                                .only(
                                                 bottom: 5, start: 10, end: 10),
                                             physics:
                                                 const NeverScrollableScrollPhysics(),
@@ -450,7 +450,7 @@ getCategorys(
                                                             shrinkWrap: true,
                                                             padding:
                                                                 const EdgeInsetsDirectional
-                                                                        .only(
+                                                                    .only(
                                                                     bottom: 5,
                                                                     start: 10,
                                                                     end: 10),

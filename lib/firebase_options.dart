@@ -63,8 +63,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '327324836622',
     projectId: 'eshop-multivendor-new',
     storageBucket: 'eshop-multivendor-new.appspot.com',
-    androidClientId: '327324836622-ji2sarngpv0f0ga7pucnf128apm136q3.apps.googleusercontent.com',
-    iosClientId: '327324836622-nngdk8fa27nhmnm8vmr8boiffr9o96ls.apps.googleusercontent.com',
+    androidClientId:
+        '327324836622-ji2sarngpv0f0ga7pucnf128apm136q3.apps.googleusercontent.com',
+    iosClientId:
+        '327324836622-nngdk8fa27nhmnm8vmr8boiffr9o96ls.apps.googleusercontent.com',
     iosBundleId: 'eshop.seller.multivendor',
   );
 }

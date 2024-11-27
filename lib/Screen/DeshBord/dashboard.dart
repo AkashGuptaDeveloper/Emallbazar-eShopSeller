@@ -33,7 +33,7 @@ class _DashboardState extends State<Dashboard> with WidgetsBindingObserver {
     super.initState();
     fragments = [
       const Home(),
-      const OrdersScreen(), 
+      const OrdersScreen(),
       ProductList(
         flag: "",
         fromNavbar: true,
