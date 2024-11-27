@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "621753877437",
-    "project_id": "sellermultivendor-1ef03",
-    "storage_bucket": "sellermultivendor-1ef03.appspot.com"
+    "project_number": "738248144707",
+    "project_id": "sellermultivendor-55951",
+    "storage_bucket": "sellermultivendor-55951.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:621753877437:android:c3395ae98c112fe40fc8d4",
+        "mobilesdk_app_id": "1:738248144707:android:7c06194c94b1ae6dc361f6",
         "android_client_info": {
-          "package_name": "wrteam.seller.multivendor"
+          "package_name": "seller.multivendor.app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "621753877437-9gbul26is9e7cugeb934u5ldo3ejkuri.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "wrteam.seller.multivendor",
-            "certificate_hash": "e5f022ccc76438ce521b20481765aa13ca6ed817"
-          }
-        },
-        {
-          "client_id": "621753877437-7i3unp8bmksm9njgk2uk75oh3vvbub0v.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDzwOwRqRoPwdI_h6HI2TV9Bio3Bc2LfmI"
+          "current_key": "AIzaSyD6ZcEpVXU-Sa70kopdyQ4iqI_Uvrb2NQg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "621753877437-7i3unp8bmksm9njgk2uk75oh3vvbub0v.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

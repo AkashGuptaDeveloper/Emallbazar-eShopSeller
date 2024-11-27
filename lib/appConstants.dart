@@ -2,7 +2,7 @@
 
 class AppConstants {
   static const String app_name = 'Emallbazar Seller';
-  static const String packageName = 'wrteam.seller.multivendor';
+  static const String packageName = 'seller.multivendor.app';
   static const String iosPackage = 'eshop.seller.multivendor';
   static const String title = 'Emallbazar Seller';
   //please add your panel's API base URL here (you can find from settings->client APIs)

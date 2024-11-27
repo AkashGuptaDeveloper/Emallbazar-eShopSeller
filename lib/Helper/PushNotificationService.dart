@@ -324,7 +324,7 @@ class PushNotificationService {
       String title, String msg, String type, String payload) async {
     late AndroidNotificationDetails androidPlatformChannelSpecifics =
         const AndroidNotificationDetails(
-            'wrteam.seller.multivendor', //channel id
+            'seller.multivendor.app', //channel id
             'Local notification', //channel name
             importance: Importance.max,
             priority: Priority.high,
